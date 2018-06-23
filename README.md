@@ -6,12 +6,17 @@ Configuration made:
    Step1: Change the ssh default port on the Lightsail Instance Manage page
    Step2: make a new user 'grader' on server
    Step3: use ssh-keygen on my local machine to generate public key and private key
-   Step4: copy public key to .ssh/authorized_keys on server
+   Step4: copy public key to ~/.ssh/authorized_keys on server for user grader
    Step5: use private key to log in (by supplying the i option) 
    Step6: configure apache using WSGIScriptAlias directive to mount my application at root of the server
    Step7: enable mod_wsgi
    Step8: start apache, iteratively test and debug
+Third Party Resources used: 
+   1. Apache official documentation
+   2. Flask official documentation
+   3. StackOverflow
 Private Key passphrase: LinuxServerConfiguration
+
 -----BEGIN RSA PRIVATE KEY-----
 Proc-Type: 4,ENCRYPTED
 DEK-Info: AES-128-CBC,BAF2C993AC738F6D08CE7DDC1DAFB544
